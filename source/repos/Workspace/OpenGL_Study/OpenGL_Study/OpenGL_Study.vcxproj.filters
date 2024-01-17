@@ -23,9 +23,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vertex.vert">
-      <Filter>소스 파일</Filter>
+    <None Include="fragment.glsl">
+      <Filter>리소스 파일</Filter>
     </None>
-    <None Include="fragment.frag" />
+    <None Include="vertex.glsl">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

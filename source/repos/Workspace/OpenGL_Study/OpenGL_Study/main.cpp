@@ -1,37 +1,26 @@
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
+import "Basic"
 
-int main(int argc, char** args) {
-	glfwInit();
+class Human {
+  private var age: number = 0;
 
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+  public func set_age(age: number) : void {
+	this.age = age;
+  }
 
-	GLFWwindow* window = glfwCreateWindow(1280, 720, "Test", 0, 0);
-
-	glfwMakeContextCurrent(window);
-
-	gladLoadGL();
-
-	while (!glfwWindowShouldClose(window)) {
-		double time = glfwGetTime();
-
-		GLfloat color[3] = { (float)std::abs(std::sin(time)), (float)std::abs(std::cos(time)), (float)std::abs(std::sin(time)) };
-
-		glClearBufferfv(GL_COLOR, 0, color);
-
-		glViewport(0, 0, 1280, 720);
-
-		glfwSwapBuffers(window);
-		glfwPollEvents();
-	}
-
-	glfwDestroyWindow(window);
-	glfwTerminate();
-
-	return 0;
+  public func get_age() : number{
+	return this.age;
+  }
 }
+
+func main() : void {
+
+  var human_arr: Human[20];
+
+  for(var i: number=0; i<10; i++){
+	human_arr[i] = new Human();
+	human_arr[i].set_age(i + 5);
+  }
+
+  print(human_arr[4].get_age());
+}
+
