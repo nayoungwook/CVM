@@ -1,0 +1,33 @@
+class Human {
+
+$initialize default void {
+@push 7.000000
+@prstore age
+
+}
+
+.get_age public number {
+@push age
+@ret
+}
+
+.set_age public void age number {
+@push this
+@load_identifier age
+@push age
+@store
+}
+
+}
+
+.main default void {
+@create Human 0
+@nmstore human
+@push human
+@push 21.000000
+@load_call set_age 1
+@push human
+@load_call get_age 0
+@call println 1
+}
+
