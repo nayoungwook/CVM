@@ -1,9 +1,2 @@
-﻿  cvm.c
-  engine.c
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4013: '_wcsdup' undefined; assuming extern returning int
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4024: 'SDL_CreateWindow': different types for formal and actual parameter 1
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(14,3): warning C4047: 'return': 'SDL_Window *' differs in levels of indirection from 'int'
-  main.c
-  Generating Code...
+﻿  main.c
   CVM.vcxproj -> C:\Users\nayou\source\repos\CChestnut\x64\Debug\CVM.exe
