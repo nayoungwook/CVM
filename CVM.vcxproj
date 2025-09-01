@@ -19,14 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\includes\code_data.h" />
     <ClInclude Include="src\includes\cvm.h" />
     <ClInclude Include="src\includes\engine.h" />
     <ClInclude Include="src\includes\main.h" />
+    <ClInclude Include="src\includes\util.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\code_data.c" />
     <ClCompile Include="src\cvm.c" />
     <ClCompile Include="src\engine.c" />
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\util.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -1,9 +1,10 @@
-﻿  cvm.c
-  engine.c
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4013: '_wcsdup' undefined; assuming extern returning int
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(9,40): warning C4024: 'SDL_CreateWindow': different types for formal and actual parameter 1
-C:\Users\nayou\source\repos\CChestnut\CVM\src\engine.c(14,3): warning C4047: 'return': 'SDL_Window *' differs in levels of indirection from 'int'
-  main.c
+﻿  main.c
+  util.c
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(8,11): warning C4133: 'function': incompatible types - from 'char [21]' to 'const wchar_t *const '
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(5,6): warning C4047: 'initializing': 'int' differs in levels of indirection from 'wchar_t *'
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(47,32): warning C4133: 'function': incompatible types - from 'char [2]' to 'const wchar_t *'
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(50,3): warning C4047: 'return': 'wchar_t *' differs in levels of indirection from 'int'
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(62,3): warning C4047: 'return': 'wchar_t *' differs in levels of indirection from 'int'
   Generating Code...
-  CVM.vcxproj -> C:\Users\nayou\source\repos\CChestnut\x64\Debug\CVM.exe
+C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(11,1): warning C4172: returning address of local variable or temporary : cwd
+  CVM.vcxproj -> C:\Users\nayou\source\repos\Chestnut\x64\Debug\CVM.exe

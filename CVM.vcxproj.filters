@@ -24,6 +24,12 @@
     <ClInclude Include="src\includes\main.h">
       <Filter>header file</Filter>
     </ClInclude>
+    <ClInclude Include="src\includes\util.h">
+      <Filter>header file</Filter>
+    </ClInclude>
+    <ClInclude Include="src\includes\code_data.h">
+      <Filter>header file</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cvm.c">
@@ -33,6 +39,12 @@
       <Filter>source file</Filter>
     </ClCompile>
     <ClCompile Include="src\main.c">
+      <Filter>source file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.c">
+      <Filter>source file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\code_data.c">
       <Filter>source file</Filter>
     </ClCompile>
   </ItemGroup>
