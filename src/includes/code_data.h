@@ -8,10 +8,15 @@
 
 typedef enum {
 	OP_push,
-}InstructionType;
+}InstructionTypes;
+
+typedef enum {
+	CD_function,
+	CD_class,
+} CodeDataTypes;
 
 typedef struct _Instruction {
-	InstructionType type;
+	InstructionTypes type;
 } Instruction;
 
 typedef struct _FunctionCodeData {
@@ -19,3 +24,9 @@ typedef struct _FunctionCodeData {
 	unsigned int instruction_size;
 	Instruction** instructions;
 } FunctioncodeData;
+
+typedef struct _ClassCodeData {
+	unsigned int id;
+	unsigned int function_size;
+	FunctioncodeData** functions;
+};

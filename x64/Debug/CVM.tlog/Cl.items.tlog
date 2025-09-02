@@ -1,4 +1,7 @@
+C:\Users\nayou\source\repos\Chestnut\CVM\src\code_data.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\code_data.obj
 C:\Users\nayou\source\repos\Chestnut\CVM\src\cvm.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\cvm.obj
 C:\Users\nayou\source\repos\Chestnut\CVM\src\engine.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\engine.obj
 C:\Users\nayou\source\repos\Chestnut\CVM\src\main.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\main.obj
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\parser.obj
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\token.obj
 C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c;C:\Users\nayou\source\repos\Chestnut\CVM\x64\Debug\util.obj

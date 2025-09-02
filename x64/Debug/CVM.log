@@ -1,10 +1,60 @@
 ﻿  main.c
-  util.c
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(8,11): warning C4133: 'function': incompatible types - from 'char [21]' to 'const wchar_t *const '
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(5,6): warning C4047: 'initializing': 'int' differs in levels of indirection from 'wchar_t *'
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(47,32): warning C4133: 'function': incompatible types - from 'char [2]' to 'const wchar_t *'
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(50,3): warning C4047: 'return': 'wchar_t *' differs in levels of indirection from 'int'
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(62,3): warning C4047: 'return': 'wchar_t *' differs in levels of indirection from 'int'
+C:\Users\nayou\source\repos\Chestnut\CVM\src\includes\code_data.h(32,2): warning C4091: 'typedef ': ignored on left of '_ClassCodeData' when no variable is declared
+  (compiling source file 'src/main.c')
+  
+  parser.c
+C:\Users\nayou\source\repos\Chestnut\CVM\src\includes\code_data.h(32,2): warning C4091: 'typedef ': ignored on left of '_ClassCodeData' when no variable is declared
+  (compiling source file 'src/parser.c')
+  
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(4,26): warning C4090: 'function': different 'const' qualifiers
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(6,16): warning C5287: operands are different enum types 'TokenType' and 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(15,34): warning C4090: 'function': different 'const' qualifiers
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(17,51): warning C5287: operands are different enum types 'TokenType' and 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(26,21): warning C4090: 'function': different 'const' qualifiers
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(26,32): warning C5287: operands are different enum types 'TokenType' and 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(27,28): warning C4090: 'function': different 'const' qualifiers
+  token.c
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(23,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(43,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(45,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(56,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(58,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(69,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(74,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(77,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(88,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(90,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(101,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(106,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(111,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(116,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(121,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(126,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(131,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(136,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(141,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(146,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(151,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(154,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(165,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(168,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(180,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(182,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(190,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(202,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(204,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(212,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(224,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(226,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(234,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(246,10): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(248,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(251,18): warning C4047: '=': 'wchar_t' differs in levels of indirection from 'wchar_t *'
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(18,24): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(305,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(326,11): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(339,20): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
+C:\Users\nayou\source\repos\Chestnut\CVM\src\token.c(284,24): warning C5286: implicit conversion from enum type 'TokenType' to enum type 'TokenType'; use an explicit cast to silence this warning
   Generating Code...
-C:\Users\nayou\source\repos\Chestnut\CVM\src\util.c(11,1): warning C4172: returning address of local variable or temporary : cwd
+C:\Users\nayou\source\repos\Chestnut\CVM\src\parser.c(32,1): warning C4716: 'parse_code_data': must return a value
   CVM.vcxproj -> C:\Users\nayou\source\repos\Chestnut\x64\Debug\CVM.exe

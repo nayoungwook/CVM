@@ -1,5 +1,23 @@
 #include "includes/util.h"
 
+int string_to_int(const wchar_t* str) {
+	int len = wcslen(str);
+	
+	int result = 1, digit = 1;
+	int i;
+	for (i = 0; i < len; i++) {
+		if (i == len - 1) {
+			if (str[len - i - 1] == '-') {
+				result *= -1;
+				break;
+			}
+		}
+		
+		result = (str[len - i - 1] - '0') * digit;
+		digit *= 10;
+	}
+}
+
 wchar_t* get_working_directory() {
 	wchar_t cwd[1024];
 	int result = _wgetcwd(cwd, sizeof(cwd) / sizeof(wchar_t));

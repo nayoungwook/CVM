@@ -5,7 +5,7 @@ int main(int argc, char* argv[]) {
 
 	wchar_t* ir = read_file(L"main.ir");
 
-	printf("%S", ir);
-
+	parse_code_data(ir);
+	
 	return 0;
 }

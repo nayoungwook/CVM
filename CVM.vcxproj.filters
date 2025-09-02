@@ -30,6 +30,12 @@
     <ClInclude Include="src\includes\code_data.h">
       <Filter>header file</Filter>
     </ClInclude>
+    <ClInclude Include="src\includes\token.h">
+      <Filter>header file</Filter>
+    </ClInclude>
+    <ClInclude Include="src\includes\parser.h">
+      <Filter>header file</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cvm.c">
@@ -45,6 +51,12 @@
       <Filter>source file</Filter>
     </ClCompile>
     <ClCompile Include="src\code_data.c">
+      <Filter>source file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\token.c">
+      <Filter>source file</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.c">
       <Filter>source file</Filter>
     </ClCompile>
   </ItemGroup>

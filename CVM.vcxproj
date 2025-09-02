@@ -23,6 +23,8 @@
     <ClInclude Include="src\includes\cvm.h" />
     <ClInclude Include="src\includes\engine.h" />
     <ClInclude Include="src\includes\main.h" />
+    <ClInclude Include="src\includes\parser.h" />
+    <ClInclude Include="src\includes\token.h" />
     <ClInclude Include="src\includes\util.h" />
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +32,8 @@
     <ClCompile Include="src\cvm.c" />
     <ClCompile Include="src\engine.c" />
     <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\parser.c" />
+    <ClCompile Include="src\token.c" />
     <ClCompile Include="src\util.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

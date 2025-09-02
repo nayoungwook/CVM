@@ -23,4 +23,5 @@ wchar_t* substr(const wchar_t* str, int s, int e);
 // For strings.
 wchar_t* join_string(const wchar_t* str1, const wchar_t* str2);
 int is_decimal(wchar_t* str);
+int string_to_int(const wchar_t* str);
 
